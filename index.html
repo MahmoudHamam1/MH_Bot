@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<title>:: MH :: Chat App</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="description" content="Lucid Bootstrap 4.1.1 Admin Template">
+<meta name="author" content="WrapTheme, design by: ThemeMakker.com">
+
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<!-- VENDOR CSS -->
+<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
+
+<!-- MAIN CSS -->
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="assets/css/color_skins.css">
+</head>
+<body class="theme-orange layout-fullwidth">
+
+<!-- Page Loader -->
+<div class="page-loader-wrapper">
+    <div class="loader">
+        <p>Please wait...</p>        
+    </div>
+</div>
+<!-- Overlay For Sidebars -->
+
+<div id="wrapper" style="display: none">
+    <div id="main-content">
+        <div class="container-fluid">
+            <div class="block-header">
+                <div class="row">
+                    <div class="col-lg-6 col-md-8 col-sm-12">
+                        <h2><a href="javascript:void(0);" class="btn btn-xs btn-link btn-toggle-fullwidth"><i class="fa fa-arrow-left"></i></a> Chat</h2>
+                        <ul class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html"><i class="icon-home"></i></a></li>                            
+                            <li class="breadcrumb-item">App</li>
+                            <li class="breadcrumb-item active">Chat</li>
+                        </ul>
+                    </div>            
+                    <div class="col-lg-6 col-md-4 col-sm-12 text-right">
+                        <div class="bh_chart hidden-xs">
+                            <div class="float-left m-r-15">
+                                <small>Visitors</small>
+                                <h6 class="mb-0 mt-1"><i class="icon-user"></i> 1,784</h6>
+                            </div>
+                            <span class="bh_visitors float-right">2,5,1,8,3,6,7,5</span>
+                        </div>
+                        <div class="bh_chart hidden-sm">
+                            <div class="float-left m-r-15">
+                                <small>Visits</small>
+                                <h6 class="mb-0 mt-1"><i class="icon-globe"></i> 325</h6>
+                            </div>
+                            <span class="bh_visits float-right">10,8,9,3,5,8,5</span>
+                        </div>
+                        <div class="bh_chart hidden-sm">
+                            <div class="float-left m-r-15">
+                                <small>Chats</small>
+                                <h6 class="mb-0 mt-1"><i class="icon-bubbles"></i> 13</h6>
+                            </div>
+                            <span class="bh_chats float-right">1,8,5,6,2,4,3,2</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row clearfix">
+                <div class="col-lg-12">
+                    <div class="card chat_app">
+                        <div class="people_list">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="icon-magnifier"></i></span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Search...">
+                            </div>
+                            <ul class="list-unstyled chat-list mt-2 mb-0">
+                                <li>
+                                    <img src="assets/images/xs/avatar1.jpg" alt="avatar" />
+                                    <div class="about">
+                                        <div class="name">First Friend</div>
+                                        <div class="status"> <i class="fa fa-circle offline"></i> left 7 mins ago </div>                                            
+                                    </div>
+                                </li>
+                                <li class="active">
+                                    <img src="assets/images/xs/avatar2.jpg" alt="avatar" />
+                                    <div class="about">
+                                        <div class="name">Second Friend</div>
+                                        <div class="status"> <i class="fa fa-circle online"></i> online </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="assets/images/xs/avatar3.jpg" alt="avatar" />
+                                    <div class="about">
+                                        <div class="name">Third Friend</div>
+                                        <div class="status"> <i class="fa fa-circle online"></i> online </div>
+                                    </div>
+                                </li>                                    
+                                <li>
+                                    <img src="assets/images/xs/avatar7.jpg" alt="avatar" />
+                                    <div class="about">
+                                        <div class="name">Forth Friend</div>
+                                        <div class="status"> <i class="fa fa-circle offline"></i> left 10 hours ago </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="assets/images/xs/avatar8.jpg" alt="avatar" />
+                                    <div class="about">
+                                        <div class="name">Fifth Friend</div>
+                                        <div class="status"> <i class="fa fa-circle online"></i> online </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="assets/images/xs/avatar9.jpg" alt="avatar" />
+                                    <div class="about">
+                                        <div class="name">sixth Friend</div>
+                                        <div class="status"> <i class="fa fa-circle offline"></i> offline since Oct 28 </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="chat">
+                            <div class="chat-header clearfix">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <a href="javascript:void(0);" data-toggle="modal" data-target="#view_info">
+                                            <img src="assets/images/user.png" alt="avatar" />
+                                        </a>
+                                        <div class="chat-about">
+                                            <h6 class="m-b-0"> Me </h6>
+                                            <small>Last seen: Now</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 hidden-sm text-right">
+                                        <a href="javascript:void(0);" class="btn btn-sm btn-outline-secondary"><i class="icon-camera"></i></a>
+                                        <a href="javascript:void(0);" class="btn btn-sm btn-outline-primary"><i class="icon-camcorder"></i></a>
+                                        <a href="javascript:void(0);" class="btn btn-sm btn-outline-info"><i class="icon-settings"></i></a>
+                                        <a href="javascript:void(0);" class="btn btn-sm btn-outline-warning"><i class="icon-question"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chat-history clearfix" style="min-height: 300px;">
+                                <ul class="m-b-0">
+                                  
+                                </ul>
+                            </div>
+                            <div class="chat-message clearfix">
+                                <div class="input-group mb-0">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="icon-paper-plane"></i></span>
+                                    </div>
+                                    <form action="" class="message_text" style="width: 95%">
+                                        <input type="text" class="form-control" required placeholder="Enter text here..."> 
+                                    </form>                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+<!-- Javascript -->
+<script src="assets/bundles/libscripts.bundle.js"></script>    
+<script src="assets/bundles/vendorscripts.bundle.js"></script>
+<script src="assets/bundles/mainscripts.bundle.js"></script>
+<script>
+    $(function(){
+        $.ajax({
+            type: "get",
+            url: "http://127.0.0.1:9090/",
+            data: {},
+            success: function (response) {
+                console.log(response)
+                if(response.Code==200){
+                    $("#wrapper").fadeIn(300)
+                }
+            }
+        });
+        $('.message_text').on('submit',function(e){
+            e.preventDefault();
+            $.ajax({
+            type: "get",
+            url: "http://127.0.0.1:9090/api/chat",
+            data: {'question':$('.message_text input').val()},
+            dataType:"json",
+            success: function (response) {
+                $('.chat-history ul').append('<li class="clearfix"><div class="message-data"></div><div class="message my-message">'+$(".message_text input").val()+'</div></li>')
+                if(response.Code != 300){
+                    $('.chat-history ul').append('<li class="clearfix"><div class="message-data text-right"><img src="assets/images/bot.png" alt="avatar"></div><div class="message other-message float-right">'+ response.Message +'</div></li>')
+                    $('.message_text input').val('')
+                }else{
+                    $('.chat-history ul').append('<li class="clearfix"><div class="message-data text-right"><img src="assets/images/bot.png" alt="avatar"></div><div class="message other-message float-right">'+ response.Message +'</div></li>')
+                    $('.message_text input').val('')
+                    $('.message_text input').attr('disabled','disabled')
+                }
+            }
+        });
+        })
+        
+    })
+</script>
+</body>
+</html>
